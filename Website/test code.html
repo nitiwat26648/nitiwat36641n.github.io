@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+    style>
+.center-text {
+  text-align: center;
+}
+body {
+    font-family: 'Arial', sans-serif; /* เปลี่ยนฟอนต์ */
+    margin: 0;
+    background-color: #001c10; /* สีพื้นหลัง */
+    color: #a3ffd9;
+}
+
+header {
+    background-color: #245741; /* สีพื้นหลัง header */
+    padding: 1rem 0;
+    text-align: center;
+    color: white; /* สีตัวอักษร header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: table; /* ปรับให้ navbar อยู่ตรงกลาง */
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* เพิ่ม transition */
+}
+
+nav a:hover {
+    background-color: #00ff95; /* เปลี่ยนสีเมื่อ hover */
+
+}
+
+main {
+    padding: 20px;
+    max-width: 960px; /* กำหนดความกว้างสูงสุด */
+    margin: 20px auto; /* จัดให้อยู่ตรงกลาง */
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: white; /* เพิ่มพื้นหลังสีขาวให้ section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+}
+
+section h2 {
+    color: #51997b; /* สีหัวข้อ */
+    border-bottom: 2px solid #d4af70; /* เส้นใต้หัวข้อ */
+    padding-bottom: 10px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05); /* เพิ่มเงาเล็กน้อย */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px; /* ขอบมน */
+    margin-bottom: 10px; /* เว้นระยะห่างจากข้อความ */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* เพิ่มเงาให้ภาพ */
+}
+.main-image{
+    max-width: 500px;
+    height:
+</style>
+    <title>จังหวัดจันทบุรี</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="center-text">
+            <div class="center-text">
+        <h1>จังหวัดจันทบุรี</h1>
+        <nav>
+            <ul>
+  
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#attractions">สถานที่ท่องเที่ยว</a></li>
+                <li><a href="#accommodations">ที่พัก</a></li>
+                <li><a href="#traditions">ประเพณี</a></li>
+                <li><a href="#food">อาหาร</a></li>
+                <li><a href="#about">เกี่ยวกับผู้จัดทำ</a></li>
+                <a href="https://sci.rmutsb.ac.th">เยี่บมชม website คณะวิทยาศาสตร์</a>
+
+       
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>ยินดีต้อนรับสู่จังหวัดจันทบุรี</h2>
+            <div class="content-wrapper">
+                <img src="chanthaburi.jpg" alt="ภาพรวมจันทบุรี" class="main-image">
+                <p>จังหวัดจันทบุรีเป็นจังหวัดที่มีความหลากหลายทางด้านธรรมชาติ วัฒนธรรม และอาหาร มีชื่อเสียงด้านผลไม้ อัญมณี และสถานที่ท่องเที่ยวที่สวยงาม</p>
+            </div>
+        </section>
+
+        <section id="attractions">
+            <h2>สถานที่ท่องเที่ยว</h2>
+            <div class="item">
+                <img src="waterfall pp.jpg" alt="น้ำตกพลิ้ว">
+                <h3>อุทยานแห่งชาติน้ำตกพลิ้ว</h3>
+                <p>น้ำตกที่สวยงาม มีปลาพลวงอาศัยอยู่ บรรยากาศร่มรื่น</p>
+            </div>
+            <div class="item">
+                <img src="Copper.jpg" alt="อาสนวิหาร">
+                <h3>อาสนวิหารพระนางมารีอาปฏิสนธินิรมล</h3>
+                <p>โบสถ์คริสต์ที่สวยงามและเก่าแก่ สถาปัตยกรรมโดดเด่น</p>
+            </div>
+            <div class="item">
+                <img src="top-75-2019-03-21-08-58-23.jpg" alt="หาดเจ้าหลาว">
+                <h3>หาดเจ้าหลาว</h3>
+                <p>ชายหาดที่สวยงาม น้ำทะเลใส เหมาะแก่การพักผ่อน</p>
+            </div>
+        </section>
+
+        <section id="accommodations">
+            <h2>ที่พัก</h2>
+            <div class="item">
+                <img src="hotel.jpg" alt="โรงแรมพิมดารา<">    
+                <h3>โรงแรมพิมดารา</h3>
+                <p>โรงแรมใจกลางเมืองจันทบุรี ที่พักดี สะอาด บริการดี ห้องกว้างขวาง สะดวก สบายมาก เพดานสูงดี สิ่งอำนวยความสะดวกครบครัน</p>
+            </div>
+            <div class="item">
+                <img src="rezero.jpg" alt="ตุ่มบ้านสวน<"> 
+                <h3>ตุ่มบ้านสวน</h3>
+                <p>ไม่มีอาหารเช้าให้บริการ แต่สามารถเดินไปได้ ทำเลที่ตั้งเหมาะสำหรับการสำรวจในและรอบๆ จันทบุรี เงียบสงบมาก มีเพียงเสียงของสัตว์ป่าในท้องถิ่นเท่านั้น ที่พักสะอาดมากและพนักงานเป็นมิตร</p>
+            </div>
+            <div class="item">
+                <img src="papa.jpg" alt="พาเพลิน โฮมสเตย์<"> 
+                <h3>พาเพลิน โฮมสเตย์</h3>
+                <p>มีกิจกรรม ล่องแพเปียกชมธรรมชาติ ชมทุ่งหอยนางรม ชมธรรมชาติป่าชายเลน ชมนกเหยี่ยวแดง สไลเดอร์ สระว่ายน้ำ หมอนกระโดดน้ำ เรียกได้ว่า ไปกันครบแกงค์คือสนุกสุดๆ </p>
+            </div>
+        </section>
+
+        <section id="traditions">
+            <h2>ประเพณี</h2>
+            <div class="item">
+                <img src="rezero.jpg" alt="งานสมโภชเจ้าแม่กวนอิม<"> 
+                <h3>งานสมโภชเจ้าแม่กวนอิม</h3>
+                <p>งานเฉลิมฉลองและความเชื่อของชาวจันทบุรี</p>
+            </div>
+            <div class="item">
+                <img src="veve.jpg" alt="งานเทศกาลผลไม้<"> 
+                <h3>งานเทศกาลผลไม้</h3>
+                <p>งานแสดงและจำหน่ายผลไม้ขึ้นชื่อของจังหวัด</p>
+            </div>
+            <div class="item">
+                <img src="6323-69776.jpg" alt="ประเพณีแห่ผ้าขึ้นธาตุเขาคิชฌกูฏ<"> 
+                <h3>ประเพณีแห่ผ้าขึ้นธาตุเขาคิชฌกูฏ</h3>
+                <p>ประเพณีสำคัญทางพุทธศาสนาที่จัดขึ้นบนเขาคิชฌกูฏ</p>
+            </div>
+        </section>
+
+        <section id="food">
+            <h2>อาหาร</h2>
+            <div class="item">
+                <img src="top.jpg" alt="เส้นจันท์ผัดปู">
+                <h3>เส้นจันท์ผัดปู</h3>
+                <p>อาหารพื้นเมืองรสชาติอร่อย</p>
+            </div>
+            <div class="item">
+                <img src="chamuang.jpg" alt="แกงหมูชะมวง">
+                <h3>แกงหมูชะมวง</h3>
+                <p>แกงรสชาติเปรี้ยวหวานที่เป็นเอกลักษณ์</p>
+            </div>
+            <div class="item">
+                <img src="durean.jpg" alt="ทุเรียนจันทบุรี">
+                <h3>ทุเรียนจันทบุรี</h3>
+                <p>ราชาแห่งผลไม้ ผลไม้ขึ้นชื่อของจังหวัด</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>เกี่ยวกับผู้จัดทำ</h2>
+            <div class="profile">
+                <img src="IMG_20241217_210630.jpg" alt="รูปโปรไฟล์">
+                <p>ชื่อ: [ นิธิวัฒน์ สีธงชัยรุ่งโรจน์ ]<br>อีเมล: [ Nitiwat3064@gmail.com ]<br>เบอร์โทร: [ 081-113-6004 ]</p>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
